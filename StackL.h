@@ -12,7 +12,6 @@ class Stack
 private:
 
    List data;
-
 public:
 
 // No default c'tor needs to be declared 
@@ -22,15 +21,10 @@ public:
 // the List "knows" how to destroy itself
 
    int size();
-
    void push(int);
-
    void pop();
-
    int top();
-
    void clear();
-
 };
 
 #endif

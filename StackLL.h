@@ -18,17 +18,11 @@ public:
     // We initialized the attributes above
 
    ~Stack(); //d'tor
-
    int size();
-
    void push(int);
-
    void pop();
-
    int top();
-
    void clear();
-
 };
 
 #endif
