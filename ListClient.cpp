@@ -14,6 +14,7 @@ int main()
 	L1.insert(4,4);
 	L1.remove(1);
 	cout << L1.get(4) << endl << L1.size() << endl;
+	L1.display();
 	L1.~List();
 	L1.display();
 }

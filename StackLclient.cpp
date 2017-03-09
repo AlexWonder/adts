@@ -30,6 +30,5 @@ int main()
      
     cout<<"\""<<a_string<<"\""<<endl<<"\""<<reverseString(a_string)<<"\"\n";
 	    
-    return 0;
-        
+    return 0;   
 }

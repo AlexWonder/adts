@@ -14,10 +14,10 @@ private:
 
 public:
 
-    // No default c'tor needs to be declared 
+    // No default constructor needs to be declared 
     // We initialized the attributes above
 
-   ~Stack(); //d'tor
+   ~Stack(); //destructor
    int size();
    void push(int);
    void pop();

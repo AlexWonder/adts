@@ -48,7 +48,7 @@ void List::insert(int val, int k)
 	
 		newPtr->link = tmpPtr->link;
 		tmpPtr->link = newPtr;  
-    }//end else
+    }
     num_elements++;
  }
 

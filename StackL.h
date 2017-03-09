@@ -14,10 +14,10 @@ private:
    List data;
 public:
 
-// No default c'tor needs to be declared 
+// No default constructor needs to be declared 
 // the List "knows" how to initialize itself
 
-// No default d'tor needs to be declared 
+// No default destructor needs to be declared 
 // the List "knows" how to destroy itself
 
    int size();

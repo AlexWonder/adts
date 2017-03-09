@@ -1,6 +1,6 @@
 #include <iostream> 
 #include <string> 
-#include "StackLL.h"//Use linked-list implementation of Stack
+#include "StackLL.h"//Use Linked-List implementation of Stack
 
 using namespace std;
         

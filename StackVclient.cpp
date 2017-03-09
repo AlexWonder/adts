@@ -1,6 +1,6 @@
 #include <iostream> 
 #include <string> 
-#include "StackV.h"//Use vector implementation of Stack
+#include "StackV.h"//Use Vector implementation of Stack
 
 using namespace std;
         

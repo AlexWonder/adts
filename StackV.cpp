@@ -2,6 +2,7 @@
 #include <vector>
 using namespace std;
 
+
 int Stack::size()
 {
 	return data.size();

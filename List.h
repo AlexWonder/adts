@@ -5,7 +5,7 @@ using namespace std;
 #ifndef LIST_H
 #define LIST_H
 
-class List //begin List definition 
+class List //begin List Definition 
 {
   private:
     class Node;//forward declaration (defined in the implementation file)

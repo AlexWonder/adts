@@ -1,4 +1,4 @@
-//Implementing a Stack ADT with a vector
+//Implementing a Stack ADT with a Vector
 
 #ifndef STACK_H
 #define STACK_H
