@@ -13,14 +13,12 @@ void Stack::push(int val)
 
 void Stack::pop()
 {
-	int k = data.size();
-	data.remove(k);
+	data.remove(1);
 }
 
 int Stack::top()
 {
-	int k = data.size();
-	return data.get(k);
+	return data.get(1);
 }
 
 void Stack::clear()

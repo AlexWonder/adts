@@ -29,23 +29,14 @@ void Stack::push(int val)
 void Stack::pop()
 {
 	Node* delPtr = frontPtr;
-	Node* tmpPtr = frontPtr;
-	for (int i=1; i<num_elements-1; ++i)
-		tmpPtr = tmpPtr->link;
-	
-	delPtr = tmpPtr->link;
-	tmpPtr->link = delPtr->link;
+	frontPtr = frontPtr->link;
 	delete delPtr;
 	num_elements--;
 }
 
 int Stack::top()
-{
-	Node* iPtr = frontPtr;
-	for (int i=1; i<num_elements; ++i)
-		iPtr = iPtr->link;
-		
-	return iPtr->data;
+{		
+	return frontPtr->data;
 }
 
 void Stack::clear()
