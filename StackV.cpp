@@ -26,5 +26,5 @@ int Stack::top()
 void Stack::clear()
 {
 	for (int i=0; i<data.size(); ++i)
-		data.pop_back();
+		pop();
 }
